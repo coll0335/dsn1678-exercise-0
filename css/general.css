@@ -2,6 +2,10 @@ body, html {
 	font-family: sans-serif;
 }
 
+.header {
+	border-bottom: 2px solid #cacaca;
+}
+
 .header h1 {
 	color: #764554;
 }
