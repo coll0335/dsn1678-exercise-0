@@ -1,12 +1,89 @@
 body, html {
+	padding: 0;
+	margin: 0;
 	font-family: sans-serif;
+	font-size: 24px;
+	width: 100%;
+	line-height: 40px;
 }
 
-.header,
-figcaption {
-	border-bottom: 5px solid #cacaca;
+figure,
+blockquote {
+	padding: 0;
+	margin: 0;
 }
 
-.header h1 {
+.img-flex {
+	width:100%;
+	height: auto;
+}
+
+.styling {
+	padding: 10px 20px;
+	border-bottom: 5px solid #dedede;
+}
+
+header h1 {
+	font-size: 64px;
 	color: #764554;
+}
+
+
+h2 {
+	font-size:24px;
+	color: #764554;
+}
+
+dl {
+	display: block;
+	overflow: hidden;
+}
+
+dt, dd {
+	float: left;
+}
+
+dt {
+	clear:left;
+	width: 8em;
+}
+
+.tags {
+	display: block;
+}
+
+.tags li {
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+.tags a {
+	text-decoration: none;
+	color:#764554 ;
+	padding: .2rem;
+	border-radius: 180px;
+	background-color: rgba(194, 114, 138, .5);
+	border: 5px solid rgba(194, 114, 138, .8);
+		font-size: 24px;
+}
+
+.tags a:hover,
+footer a:hover {
+	opacity: .5;
+}
+
+blockquote {
+	display: block;
+}
+
+cite {
+	text-align:right;
+	color: #cecece;
+}
+
+footer a {
+	text-decoration:underline;
+	color:#764554 ;
+
 }
