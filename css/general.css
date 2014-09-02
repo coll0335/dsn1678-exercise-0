@@ -2,8 +2,9 @@ body, html {
 	font-family: sans-serif;
 }
 
-.header {
-	border-bottom: 2px solid #cacaca;
+.header,
+figcaption {
+	border-bottom: 5px solid #cacaca;
 }
 
 .header h1 {
